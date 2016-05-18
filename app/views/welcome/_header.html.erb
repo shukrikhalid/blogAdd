@@ -1,0 +1,25 @@
+<!-- Header -->
+  	<div class="tm-header">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-5 col-md-4 col-sm-3 tm-site-name-container">
+  					<a href="#" class="tm-site-name">Rails HTML5</a>	
+  				</div>
+	  			<div class="">
+	  				<div class="mobile-menu-icon">
+		              <i class="fa fa-bars"></i>
+		            </div>
+	  				<nav class="tm-nav">
+						<ul>
+							<li><%= link_to 'Home', root_path, method: :get %></li>
+							<li><%= link_to 'About', welcome_about_path, method: :get %></li>
+							<li><%= link_to 'Our Tours', welcome_tour_path, method: :get%></li>
+							<li><%= link_to 'Contact', welcome_contact_path, method: :get %></li>
+							<li><%= link_to 'My Blog', controller: 'articles' %> </li>
+
+						</ul>
+					</nav>		
+	  			</div>				
+  			</div>
+  		</div>	  	
+  	</div>
